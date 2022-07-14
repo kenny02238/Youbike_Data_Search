@@ -4,15 +4,14 @@ import {Navigate} from "react-router-dom"
 
 const element = [
     {
-      path:"/home",
+      path:"/Youbike_Data_Search",
       element:<Home/>,
       children:[
-       
       ]
     },
     {
       path:"/",
-      element:<Navigate to="/home"/>
+      element:<Navigate to="/Youbike_Data_Search"/>
     }
   ]
 

@@ -156,7 +156,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
@@ -172,7 +172,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
@@ -188,7 +188,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
@@ -204,7 +204,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
@@ -220,7 +220,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
@@ -236,7 +236,7 @@ export default function Home() {
                 <Checkbox
                   defaultChecked
                   sx={{
-                    color: pink[400],
+                    color: pink[300],
                     "&.Mui-checked": {
                       color: pink[200],
                     },
