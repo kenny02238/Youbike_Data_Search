@@ -6,6 +6,7 @@ const element = [
     {
       path:"/Youbike_Data_Search",
       element:<Home/>,
+      state:{id:"123"},
       children:[
       ]
     },
