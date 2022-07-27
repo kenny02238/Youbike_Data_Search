@@ -46,9 +46,9 @@ function SideBar(props) {
   
 
   // 處理各別勾選框
-  function handleCheckBox(event) {
+  function handleCheckBox(event,district) {
     const currentCheck = event.target.checked;
-    const currentLabelText = event.nativeEvent.path[2].outerText;
+    const currentLabelText = district;
     const data = { name: currentLabelText, check: currentCheck };
     checkChange(data);
   }
@@ -89,11 +89,11 @@ function SideBar(props) {
           return (
             <FormControlLabel
               label={district}
-              onChange={handleCheckBox}
               sx={{ flexGrow: 1, marginTop: "2vmin" }}
               key={index}
               control={
                 <Checkbox
+                  onChange={(event)=>{handleCheckBox(event,district)}}
                   // defaultChecked
                   sx={{
                     color: "#e1dad0",
@@ -101,7 +101,6 @@ function SideBar(props) {
                       color: "#755433",
                     },
                   }}
-                  inputProps={{ "aria-label": "controlled" }}
                 />
               }
             />
