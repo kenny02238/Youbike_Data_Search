@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Youbike_Data_Search/static/js/main.dcef337f.js",
+    "main.js": "/Youbike_Data_Search/static/js/main.d2896b90.js",
     "static/js/787.fb2ee381.chunk.js": "/Youbike_Data_Search/static/js/787.fb2ee381.chunk.js",
     "index.html": "/Youbike_Data_Search/index.html",
-    "main.dcef337f.js.map": "/Youbike_Data_Search/static/js/main.dcef337f.js.map",
+    "main.d2896b90.js.map": "/Youbike_Data_Search/static/js/main.d2896b90.js.map",
     "787.fb2ee381.chunk.js.map": "/Youbike_Data_Search/static/js/787.fb2ee381.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.dcef337f.js"
+    "static/js/main.d2896b90.js"
   ]
 }
