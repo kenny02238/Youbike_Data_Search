@@ -24,7 +24,7 @@ function sidebarReducer(preState = initState, action) {
   switch (type) {
     case CHANGE:
       newState = copyArray.map((dist) => {
-        if (dist.name == data.name) {
+        if (dist.name === data.name) {
           return ({name:data.name,check:data.check});
         } else {
           return dist;

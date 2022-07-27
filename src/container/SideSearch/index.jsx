@@ -39,7 +39,7 @@ function SideSearch(props) {
             onChange={handleChange}
             onKeyPress={handleKeyPress}
         />
-        <IconButton>
+        <IconButton >
             <SearchIcon/>
         </IconButton>
     </Box>

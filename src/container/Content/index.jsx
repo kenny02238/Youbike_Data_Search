@@ -55,6 +55,7 @@ function renderRow(props) {
 function Content(props) {
 
   const datas = useUbikeAPI(cityName);
+
   function filterCheckBoxData() {
     
     const { ifCheck,searchData } = props;
@@ -62,9 +63,9 @@ function Content(props) {
     //確認是否有被checkBox勾選
     let checkBoxData = datas.filter((data) => {
       let a = ifCheck.find((e) => {
-        return e.name == data.districtName;
+        return e.name === data.districtName;
       });
-      return a.check == true;
+      return a.check === true;
     });
     // 確認是否有符合搜尋空內容
     if(searchData[0]!==""){
@@ -79,11 +80,6 @@ function Content(props) {
     }
 
   }
-
-
-  // console.log(filterCheckBoxData());
-
-
 
   return (
     <Box sx={{ gridArea: "main", bgcolor: "#f7f6f1" }}>
