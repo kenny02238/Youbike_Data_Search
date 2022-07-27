@@ -67,7 +67,7 @@ export default function NavigationBar() {
         justifyContent: "space-between",
       }}
     >
-      <Link href="/" width="10%" height="100%">
+      <Link href="/Youbike_Data_Search" width="10%" height="100%">
         <Image
           src={logo}
           showLoading
@@ -92,7 +92,7 @@ export default function NavigationBar() {
                 margin:" 0 2vmin ",
                 color:"#675F54",
               }}
-              href="/"
+              href="/Youbike_Data_Search"
             >
               {setIcon(index)}
               {data}

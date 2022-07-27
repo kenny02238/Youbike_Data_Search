@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+### 可查詢台北市 Youbike2.0 各站點可使用車輛的即時資訊(持續更新中)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [作品展示連結](https://kenny02238.github.io/Youbike_Data_Search/)
 
-## Available Scripts
+## 作品介紹:
 
-In the project directory, you can run:
+# HTML & CSS
 
-### `npm start`
+**1. 使用 Styled components 進行樣式設定**<br>
+**2. 搭配 Material UI**<br>
+**3. 大型布局使用 Grid 小型版面使用 flex 排版**<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# React/React-redux/React-router/JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**1. fetch 串接 Youbike2.0 open data**<br>
+**2. redux 達成組件通信(通信 checkbox 勾選框及搜尋框狀態)**<br>
+**3. react-router 管理換頁功能**<br>
+**4. react-window 優化渲染效率**<br>
 
-### `npm test`
+## 未來更新內容:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**1. RWD 響應式**
 
-### `npm run build`
+- 預計利用 MUI theming 設定 break point 切換版型
+- 重新調效個元件/文字的大小設置(vx/vh/vmin/vmax/%)
+- 預計會針對手機大小切一個專用版
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**2. 程式重構**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 針對目前程式碼做整理,優化組件分工細項
+- 加入 useMemo,useCallback 鉤子來管理每次 render 重定義 function 問題
+- 設定 MUI theming 使樣式內容可統一管理,並重新配色及設定文字樣式
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**3. 新增功能**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 增加分頁,實踐 router 功能
+- 預計會加入 Dark mode
