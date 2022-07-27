@@ -12,12 +12,17 @@ import SearchIcon from '@mui/icons-material/Search';
 
 function SideSearch(props) {
 
-  const{sideBarSearchData}=props
+  const{sideBarSearchData,checkBoxData}=props
 
   function handleKeyPress(event){
+    
+    let a = checkBoxData.filter((item)=>item.check===true)
+
     if(event.code==="Enter"){
       sideBarSearchData(event.target.value)
+      
     }
+    if(a.length===0) alert("請先勾選想搜尋之行政區");
   }
 
   function handleChange(event){
@@ -48,6 +53,6 @@ function SideSearch(props) {
 
 
 export default connect(
-  (state)=>({searchData:state.sideBarSearch}), 
+  (state)=>({searchData:state.sideBarSearch ,checkBoxData:state.checkBox}), 
   {sideBarSearchData}
   )(SideSearch)
