@@ -65,7 +65,10 @@ function Content(props) {
       let a = ifCheck.find((e) => {
         return e.name === data.districtName;
       });
-      return a.check === true;
+      if(a!==undefined){
+        return a.check === true;
+      }
+      
     });
     // 確認是否有符合搜尋空內容
     if(searchData[0]!==""){
